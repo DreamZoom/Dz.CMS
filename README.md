@@ -1,2 +1,2 @@
 # Dz.CMS
-CMS系统 基于MVC,.netframework
+CMS系统 基于MVC,.Net EntityFramework
