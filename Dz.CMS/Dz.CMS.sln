@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.CMS.Web", "Dz.CMS.Web\Dz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.CMS.Web.Tests", "Dz.CMS.Web.Tests\Dz.CMS.Web.Tests.csproj", "{5B494D73-B629-4600-9365-EB8984392F02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.CMS.Services", "Dz.CMS.Services\Dz.CMS.Services.csproj", "{A4BBCEBA-B346-481A-9C19-CF12FBAA9C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.CMS.Model", "Dz.CMS.Model\Dz.CMS.Model.csproj", "{A2C40529-9BC0-4359-9AC6-AE72755A9A47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{5B494D73-B629-4600-9365-EB8984392F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B494D73-B629-4600-9365-EB8984392F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B494D73-B629-4600-9365-EB8984392F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BBCEBA-B346-481A-9C19-CF12FBAA9C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BBCEBA-B346-481A-9C19-CF12FBAA9C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BBCEBA-B346-481A-9C19-CF12FBAA9C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BBCEBA-B346-481A-9C19-CF12FBAA9C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C40529-9BC0-4359-9AC6-AE72755A9A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C40529-9BC0-4359-9AC6-AE72755A9A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C40529-9BC0-4359-9AC6-AE72755A9A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C40529-9BC0-4359-9AC6-AE72755A9A47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
