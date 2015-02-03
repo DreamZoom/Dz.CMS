@@ -16,7 +16,6 @@ namespace Dz.CMS.Web.Controllers
 
             var user = userService.GetModelList("UserName='王小龙'") ;
 
-            this.Log().Debug(user);
            
             ViewBag.Message ="操作成功";
             return View();

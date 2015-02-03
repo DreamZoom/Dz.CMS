@@ -3,3 +3,8 @@ F:\Github\Dz.CMS\Dz.CMS\Dz.Log\bin\Debug\Dz.Log.dll
 F:\Github\Dz.CMS\Dz.CMS\Dz.Log\bin\Debug\Dz.Log.pdb
 F:\Github\Dz.CMS\Dz.CMS\Dz.Log\obj\Debug\Dz.Log.dll
 F:\Github\Dz.CMS\Dz.CMS\Dz.Log\obj\Debug\Dz.Log.pdb
+D:\github\Dz.CMS\Dz.CMS\Dz.Log\bin\Debug\Dz.Log.dll
+D:\github\Dz.CMS\Dz.CMS\Dz.Log\bin\Debug\Dz.Log.pdb
+D:\github\Dz.CMS\Dz.CMS\Dz.Log\obj\Debug\Dz.Log.csprojResolveAssemblyReference.cache
+D:\github\Dz.CMS\Dz.CMS\Dz.Log\obj\Debug\Dz.Log.dll
+D:\github\Dz.CMS\Dz.CMS\Dz.Log\obj\Debug\Dz.Log.pdb

@@ -4,17 +4,7 @@
     主页 - 我的 ASP.NET MVC 应用程序
 </asp:Content>
 
-<asp:Content ID="indexFeatured" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>主页。</h1>
-                <h2><%: ViewBag.Message %></h2>
-            </hgroup>
-            
-        </div>
-    </section>
-</asp:Content>
+
 
 <asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
     <h3>下面是我们的建议:</h3>
