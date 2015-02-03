@@ -58,3 +58,13 @@ F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\zh-Hans\Microsoft.Web.WebPage
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\obj\Debug\Dz.CMS.Web.Tests.csprojResolveAssemblyReference.cache
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\obj\Debug\Dz.CMS.Web.Tests.dll
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\obj\Debug\Dz.CMS.Web.Tests.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.Model.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.Services.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.DAO.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.Model.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.Services.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.CMS.DAO.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\log4net.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\log4net.xml
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.Log.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web.Tests\bin\Debug\Dz.Log.pdb

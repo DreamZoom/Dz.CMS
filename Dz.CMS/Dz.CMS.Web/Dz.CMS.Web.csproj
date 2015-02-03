@@ -227,6 +227,22 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="CodeTemplates\AddView\CSHTML\List.tt" />
+    <Content Include="CodeTemplates\AddView\CSHTML\Empty.tt" />
+    <Content Include="CodeTemplates\AddView\CSHTML\Edit.tt" />
+    <Content Include="CodeTemplates\AddView\CSHTML\Details.tt" />
+    <Content Include="CodeTemplates\AddView\CSHTML\Delete.tt" />
+    <Content Include="CodeTemplates\AddView\CSHTML\Create.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\List.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\Empty.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\Edit.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\Details.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\Delete.tt" />
+    <Content Include="CodeTemplates\AddView\AspxCSharp\Create.tt" />
+    <Content Include="CodeTemplates\AddController\ControllerWithContext.tt" />
+    <Content Include="CodeTemplates\AddController\Controller.tt" />
+    <Content Include="CodeTemplates\AddController\ApiControllerWithContext.tt" />
+    <Content Include="CodeTemplates\AddController\ApiController.tt" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -242,6 +258,8 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Views\Home\Create.aspx" />
+    <Content Include="Views\Shared\EditorForModel.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -283,9 +301,27 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Shared\EditorTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dz.CMS.Model\Dz.CMS.Model.csproj">
+      <Project>{a2c40529-9bc0-4359-9ac6-ae72755a9a47}</Project>
+      <Name>Dz.CMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dz.CMS.Services\Dz.CMS.Services.csproj">
+      <Project>{a4bbceba-b346-481a-9c19-cf12fbaa9c82}</Project>
+      <Name>Dz.CMS.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dz.Log\Dz.Log.csproj">
+      <Project>{58543134-400d-430c-8094-92a57b3c2390}</Project>
+      <Name>Dz.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -49,16 +49,29 @@
     <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceBase.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dz.CMS.DAO\Dz.CMS.DAO.csproj">
+      <Project>{bbcf59f4-7dae-4646-ad76-4b7666ca4dc1}</Project>
+      <Name>Dz.CMS.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dz.CMS.Model\Dz.CMS.Model.csproj">
+      <Project>{a2c40529-9bc0-4359-9ac6-ae72755a9a47}</Project>
+      <Name>Dz.CMS.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,7 @@
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\bin\Debug\Dz.CMS.DAO.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\bin\Debug\Dz.CMS.DAO.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\obj\Debug\Dz.CMS.DAO.csprojResolveAssemblyReference.cache
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\obj\Debug\Dz.CMS.DAO.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\obj\Debug\Dz.CMS.DAO.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\bin\Debug\Dz.CMS.Model.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.DAO\bin\Debug\Dz.CMS.Model.pdb

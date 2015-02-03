@@ -61,3 +61,11 @@ F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\zh-Hans\WebMatrix.WebData.resources.dll
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\obj\Debug\Dz.CMS.Web.csprojResolveAssemblyReference.cache
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\obj\Debug\Dz.CMS.Web.dll
 F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\obj\Debug\Dz.CMS.Web.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.Model.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.Services.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.DAO.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.Model.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.Services.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.CMS.DAO.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.Log.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Web\bin\Dz.Log.pdb
