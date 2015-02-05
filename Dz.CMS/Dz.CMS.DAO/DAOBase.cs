@@ -58,18 +58,36 @@ namespace Dz.CMS.DAO
             return false;
         }
 
+        public ModelBase GetSingle(ModelBase model, string where)
+        {
+            string SQLString = ModelHelper().SelectSQL(model, 1);
+            SQLString += " WHERE " + where;
+            return ModelHelper().TableToModelList(DbHelper().Query(SQLString), model).FirstOrDefault();
+        }
+
         public IEnumerable<ModelBase> GetList(ModelBase model, string where)
         {
             string SQLString = ModelHelper().SelectSQL(model);
-            SQLString += " WHERE "+ where;
+
+            if (!string.IsNullOrWhiteSpace(where))
+            {
+                SQLString += " WHERE " + where;
+            }
+
             return ModelHelper().TableToModelList(DbHelper().Query(SQLString), model);
         }
 
-        public IEnumerable<ModelBase> GetList(ModelBase model, string where,string order)
+        public IEnumerable<ModelBase> GetList(ModelBase model, string where, string order)
         {
             string SQLString = ModelHelper().SelectSQL(model);
-            SQLString += " WHERE " + where;
-            SQLString += " ORDER BY "+ order;
+            if (!string.IsNullOrWhiteSpace(where))
+            {
+                SQLString += " WHERE " + where;
+            }
+            if (!string.IsNullOrWhiteSpace(order))
+            {
+                SQLString += " ORDER BY " + order;
+            }
 
             return ModelHelper().TableToModelList(DbHelper().Query(SQLString), model);
         }

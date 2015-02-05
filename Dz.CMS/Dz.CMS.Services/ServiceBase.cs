@@ -53,6 +53,11 @@ namespace Dz.CMS.Services
             return DAO.DeleteModel(model);
         }
 
+        public virtual Model.ModelBase GetModel(int Id)
+        {
+            return DAO.GetSingle(this.CreateTemplate(),"ID="+Id);
+        }
+
         public virtual IEnumerable<Model.ModelBase> GetModelList(string where)
         {
             return DAO.GetList(this.CreateTemplate(), where);
