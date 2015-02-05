@@ -176,6 +176,8 @@
   <ItemGroup>
     <Content Include="Areas\Admin\Views\Manage\Index.aspx" />
     <Content Include="Areas\Admin\Views\Module\Add.aspx" />
+    <Content Include="Areas\Admin\Views\Module\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\Module\Edit.aspx" />
     <Content Include="Areas\Admin\Views\Module\List.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -398,10 +400,12 @@
     <ProjectReference Include="..\Dz.CMS.Model\Dz.CMS.Model.csproj">
       <Project>{a2c40529-9bc0-4359-9ac6-ae72755a9a47}</Project>
       <Name>Dz.CMS.Model</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
     <ProjectReference Include="..\Dz.CMS.Services\Dz.CMS.Services.csproj">
       <Project>{a4bbceba-b346-481a-9c19-cf12fbaa9c82}</Project>
       <Name>Dz.CMS.Services</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
     <ProjectReference Include="..\Dz.Log\Dz.Log.csproj">
       <Project>{58543134-400d-430c-8094-92a57b3c2390}</Project>

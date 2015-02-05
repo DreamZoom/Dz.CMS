@@ -100,11 +100,8 @@ namespace Dz.CMS.Web.Areas.Admin.Controllers
         public ActionResult Add(string serviceName,bool b=false)
         {
             Model.ModelBase model = Dz.CMS.Model.ModelFactory.Create(serviceName);
-            Model.Models.User user = new Model.Models.User();
-            if (!TryUpdateModel(user)) return null;
-            if (!TryModel(model)) return null;
 
-           
+            if (!TryModel(model)) return null;
 
             //获取服务对象
             Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
@@ -125,29 +122,78 @@ namespace Dz.CMS.Web.Areas.Admin.Controllers
 
 
         #region 修改数据
-        public ActionResult Edit(string serviceName)
+        public ActionResult Edit(string serviceName,int Id)
         {
-            return View();
+            //获取服务对象
+            Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
+            //获取方法
+            MethodInfo method = Service.GetType().GetMethod("GetModel");
+
+            var model = method.Invoke(Service, new object[] { Id });//执行添加操作
+
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Edit(string serviceName, bool isPost = false)
+        public ActionResult Edit(string serviceName, int Id, bool isPost = false)
         {
-            return View();
+
+            Model.ModelBase model = Dz.CMS.Model.ModelFactory.Create(serviceName);
+       
+            if (!TryModel(model)) return null;
+
+            //获取服务对象
+            Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
+            //获取方法
+            MethodInfo method = Service.GetType().GetMethod("UpdateModel");
+
+            try
+            {
+                method.Invoke(Service, new object[] { model });//执行添加操作
+            }
+            catch
+            {
+            }
+
+            return View(model);
         }
         #endregion
 
 
         #region 删除数据
-        public ActionResult Delete(string serviceName)
+        public ActionResult Delete(string serviceName, int Id)
         {
-            return View();
+            //获取服务对象
+            Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
+            //获取方法
+            MethodInfo method = Service.GetType().GetMethod("GetModel");
+
+            var model = method.Invoke(Service, new object[] { Id });//执行添加操作
+
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Delete(string serviceName, bool isPost = false)
+        public ActionResult Delete(string serviceName, int Id, bool isPost = false)
         {
-            return View();
+            Model.ModelBase model = Dz.CMS.Model.ModelFactory.Create(serviceName);
+
+            if (!TryModel(model)) return null;
+
+            //获取服务对象
+            Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
+            //获取方法
+            MethodInfo method = Service.GetType().GetMethod("DeleteModel");
+
+            try
+            {
+                method.Invoke(Service, new object[] { model });//执行添加操作
+            }
+            catch
+            {
+            }
+
+            return View(model);
         }
         #endregion
 
