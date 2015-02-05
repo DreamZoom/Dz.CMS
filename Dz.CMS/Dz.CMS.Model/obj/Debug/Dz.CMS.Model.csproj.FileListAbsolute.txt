@@ -1,10 +1,10 @@
-F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.dll
-F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.pdb
-F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.dll
-F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.pdb
-F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.csprojResolveAssemblyReference.cache
 D:\github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.dll
 D:\github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.pdb
 D:\github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.csprojResolveAssemblyReference.cache
 D:\github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.dll
 D:\github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\bin\Debug\Dz.CMS.Model.pdb
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.csprojResolveAssemblyReference.cache
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.dll
+F:\Github\Dz.CMS\Dz.CMS\Dz.CMS.Model\obj\Debug\Dz.CMS.Model.pdb

@@ -161,6 +161,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\ManageController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ModuleController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -171,6 +174,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\Views\Manage\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Module\Add.aspx" />
+    <Content Include="Areas\Admin\Views\Module\List.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -255,6 +261,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Areas\Admin\Views\Web.config" />
+    <Content Include="Areas\Admin\Views\Shared\Admin.Master" />
+    <Content Include="Areas\Admin\Views\Shared\IFrame.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap-datepicker.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -338,6 +347,7 @@
     <Content Include="Scripts\npm.js" />
     <Content Include="Views\Home\Create.aspx" />
     <Content Include="Views\Shared\EditorForModel.ascx" />
+    <Content Include="Views\Shared\EditorTemplates\bool.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -379,7 +389,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Shared\EditorTemplates\" />
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -396,6 +406,10 @@
     <ProjectReference Include="..\Dz.Log\Dz.Log.csproj">
       <Project>{58543134-400d-430c-8094-92a57b3c2390}</Project>
       <Name>Dz.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dz.Web.Mvc\Dz.Web.Mvc.csproj">
+      <Project>{16d0193f-45f0-45da-b0a7-6b33796884af}</Project>
+      <Name>Dz.Web.Mvc</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

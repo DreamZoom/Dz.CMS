@@ -12,9 +12,9 @@ namespace Dz.CMS.Web.Controllers
         {
             ViewBag.Message = "修改此模板以快速启动你的 ASP.NET MVC 应用程序。";
 
-            Dz.CMS.Services.Services.UserService userService = new Services.Services.UserService();
+            //Dz.CMS.Services.Services.UserService userService = Services.ServiceFactory.Create("User") as Dz.CMS.Services.Services.UserService;
 
-            var user = userService.GetModelList("UserName='王小龙'") ;
+            //var user = userService.GetModelList("UserName='王小龙'") ;
 
            
             ViewBag.Message ="操作成功";

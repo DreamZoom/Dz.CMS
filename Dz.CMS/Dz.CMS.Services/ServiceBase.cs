@@ -57,5 +57,10 @@ namespace Dz.CMS.Services
         {
             return DAO.GetList(this.CreateTemplate(), where);
         }
+
+        public virtual IEnumerable<Model.ModelBase> List(string where)
+        {
+            return DAO.GetList(this.CreateTemplate(), where);
+        }
     }
 }

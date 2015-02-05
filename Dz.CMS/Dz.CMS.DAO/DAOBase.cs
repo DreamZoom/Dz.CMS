@@ -61,6 +61,15 @@ namespace Dz.CMS.DAO
         public IEnumerable<ModelBase> GetList(ModelBase model, string where)
         {
             string SQLString = ModelHelper().SelectSQL(model);
+            SQLString += " WHERE "+ where;
+            return ModelHelper().TableToModelList(DbHelper().Query(SQLString), model);
+        }
+
+        public IEnumerable<ModelBase> GetList(ModelBase model, string where,string order)
+        {
+            string SQLString = ModelHelper().SelectSQL(model);
+            SQLString += " WHERE " + where;
+            SQLString += " ORDER BY "+ order;
 
             return ModelHelper().TableToModelList(DbHelper().Query(SQLString), model);
         }
