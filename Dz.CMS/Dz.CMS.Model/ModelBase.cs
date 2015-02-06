@@ -38,7 +38,15 @@ namespace Dz.CMS.Model
             return this.MemberwiseClone();
         }
 
-       
+        public virtual object GetFiledValue(string filed)
+        {
+           var p = this.GetType().GetProperties().FirstOrDefault(m => m.Name == filed);
+           if (p != null)
+           {
+              return p.GetValue(this);
+           }
+           return null;
+        }
 
         
     }

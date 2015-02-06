@@ -1,28 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Areas/Admin/Views/Shared/IFrame.Master" Inherits="System.Web.Mvc.ViewPage<Dz.CMS.Model.ModelBase>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-    Add
+    Details
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
+<h2>Details</h2>
 
-<% using (Html.BeginForm()) { %>
-    <%: Html.ValidationSummary(true) %>
-
-    <fieldset>
-        <legend>填写数据</legend>
-
-        <%:Html.EditorForModel() %>
-
-        <p>
-            <input type="submit" value="创建" />
-        </p>
-    </fieldset>
-<% } %>
-
-<div>
+<fieldset>
+    <legend>查看详情</legend>
+    <%:Html.DisplayForModel() %>
+</fieldset>
+<p>
+    <%: Html.ActionLink("编辑", "Edit", new { id=Model.GetFiledValue("ID"),serviceName= Request.Params["serviceName"]  }) %>
+   
     <%: Html.ActionLink("回到列表", "Index", new { serviceName= Request.Params["serviceName"]})%>
-</div>
+</p>
 
 </asp:Content>

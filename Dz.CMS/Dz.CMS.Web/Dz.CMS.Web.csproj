@@ -177,6 +177,7 @@
     <Content Include="Areas\Admin\Views\Manage\Index.aspx" />
     <Content Include="Areas\Admin\Views\Module\Add.aspx" />
     <Content Include="Areas\Admin\Views\Module\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\Module\Details.aspx" />
     <Content Include="Areas\Admin\Views\Module\Edit.aspx" />
     <Content Include="Areas\Admin\Views\Module\List.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -239,6 +240,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\admin.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

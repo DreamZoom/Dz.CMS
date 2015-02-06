@@ -198,6 +198,18 @@ namespace Dz.CMS.Web.Areas.Admin.Controllers
         #endregion
 
 
+        public ActionResult Details(string serviceName, int Id)
+        {
+            //获取服务对象
+            Dz.CMS.Services.ServiceBase Service = Services.ServiceFactory.Create(serviceName) as Dz.CMS.Services.ServiceBase;
+            //获取方法
+            MethodInfo method = Service.GetType().GetMethod("GetModel");
+
+            var model = method.Invoke(Service, new object[] { Id });//执行添加操作
+
+            return View(model);
+        }
+
         public bool TryModel(object model)
         {
             if (model == null)

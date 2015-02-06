@@ -22,5 +22,5 @@
         <input type="submit" value="删除" />
     </p>
     <% } %>
-    <%: Html.ActionLink("Back to List", "Index") %>
+    <%: Html.ActionLink("回到列表", "Index", new { serviceName= Request.Params["serviceName"]})%>
 </asp:Content>
